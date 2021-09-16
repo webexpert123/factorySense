@@ -6,13 +6,12 @@
         <div class="flex justify-start lg:w-0 lg:flex-1">
           <span class="sr-only">Workflow</span>
           <a href="/">
-            <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-purple-600-to-indigo-600.svg" alt="">
+            <img class="h-8 w-auto sm:h-10" src="~assets/fs_logo.svg" alt="">
           </a>
         </div>
         <div class="-mr-2 -my-2 md:hidden">
           <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
             <span class="sr-only">Open menu</span>
-            <!-- Heroicon name: outline/menu -->
             <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
@@ -23,35 +22,18 @@
             <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
             <button type="button" class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false">
               <span>Industries</span>
-              <!--
-                Heroicon name: solid/chevron-down
-
-                Item active: "text-gray-600", Item inactive: "text-gray-400"
-              -->
               <svg class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
               </svg>
             </button>
 
-            <!--
-              'Industries' flyout menu, show/hide based on flyout menu state.
-
-              Entering: "transition ease-out duration-200"
-                From: "opacity-0 translate-y-1"
-                To: "opacity-100 translate-y-0"
-              Leaving: "transition ease-in duration-150"
-                From: "opacity-100 translate-y-0"
-                To: "opacity-0 translate-y-1"
-            -->
-
             <div class="absolute z-10 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
               <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
-                  <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                  <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200">
                     <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-gradient-to-r from-purple-600 to-indigo-600 text-white sm:h-12 sm:w-12">
-                      <!-- Heroicon name: outline/inbox -->
                       <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" />
                       </svg>
                     </div>
                     <div class="ml-4">
@@ -59,16 +41,15 @@
                         Medical
                       </p>
                       <p class="mt-1 text-sm text-gray-500">
-                        Get a better understanding of where your traffic is coming from.
+                        RFID tracking for medical device and drug manufacturing
                       </p>
                     </div>
                   </a>
 
-                  <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                  <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200">
                     <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-gradient-to-r from-purple-600 to-indigo-600 text-white sm:h-12 sm:w-12">
-                      <!-- Heroicon name: outline/annotation -->
                       <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
                       </svg>
                     </div>
                     <div class="ml-4">
@@ -76,33 +57,31 @@
                         Aerospace
                       </p>
                       <p class="mt-1 text-sm text-gray-500">
-                        Speak directly to your customers in a more meaningful way.
+                        Track kits, assets, and inventory in realtime
                       </p>
                     </div>
                   </a>
 
-                  <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                  <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200">
                     <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-gradient-to-r from-purple-600 to-indigo-600 text-white sm:h-12 sm:w-12">
-                      <!-- Heroicon name: outline/chat-alt-2 -->
                       <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
                       </svg>
                     </div>
                     <div class="ml-4">
                       <p class="text-base font-medium text-gray-900">
-                        Electronics
+                        Electronics &amp; Defense
                       </p>
                       <p class="mt-1 text-sm text-gray-500">
-                        Your customers&#039; data will be safe and secure.
+                        Robust tracking tailored for electronics &amp; defense manufacturers
                       </p>
                     </div>
                   </a>
 
-                  <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                  <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200">
                     <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-gradient-to-r from-purple-600 to-indigo-600 text-white sm:h-12 sm:w-12">
-                      <!-- Heroicon name: outline/question-mark-circle -->
                       <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
                       </svg>
                     </div>
                     <div class="ml-4">
@@ -110,7 +89,7 @@
                         Warehousing
                       </p>
                       <p class="mt-1 text-sm text-gray-500">
-                        Connect with third-party tools that you&#039;re already using.
+                        Trace inventory from receipt to putaway to fulfillment
                       </p>
                     </div>
                   </a>
@@ -120,7 +99,7 @@
           </div>
 
           <a href="/integrations" class="text-base font-medium text-gray-500 hover:text-gray-900">
-            Integrations
+            Automation Integrations
           </a>
           <a href="/howrfidworks" class="text-base font-medium text-gray-500 hover:text-gray-900">
             How RFID Works
@@ -218,7 +197,7 @@
           <div class="py-6 px-5">
             <div class="grid grid-cols-2 gap-4">
               <a href="/integrations" class="text-base font-medium text-gray-900 hover:text-gray-700">
-                Integrations
+                Automation Integrations
               </a>
               <a href="/howrfidworks" class="text-base font-medium text-gray-500 hover:text-gray-900">
                 How RFID Works
