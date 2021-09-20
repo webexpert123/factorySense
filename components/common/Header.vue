@@ -108,7 +108,7 @@
           </div>
 
           <a href="/integrations" class="text-base font-medium text-gray-500 hover:text-gray-900">
-            Automation Integrations
+            Integrations
           </a>
           <a href="/howrfidworks" class="text-base font-medium text-gray-500 hover:text-gray-900">
             How RFID Works
@@ -206,7 +206,7 @@
           <div class="py-6 px-5">
             <div class="grid grid-cols-2 gap-4">
               <a href="/integrations" class="text-base font-medium text-gray-900 hover:text-gray-700">
-                Automation Integrations
+                Integrations
               </a>
               <a href="/howrfidworks" class="text-base font-medium text-gray-500 hover:text-gray-900">
                 How RFID Works
