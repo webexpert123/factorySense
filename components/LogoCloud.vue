@@ -2,7 +2,7 @@
     <!-- Logo Cloud -->
     <div class="bg-gray-100">
       <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-        <p class="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
+        <p class="text-center font-semibold text-indigo-600 uppercase tracking-wide">
           Dozens of ERP integrations to automate transactions in your ERP system
         </p>
         <div class="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">

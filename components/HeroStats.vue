@@ -19,7 +19,7 @@
         <div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
           <p>
             <span class="block text-2xl font-bold text-white">> 300 Million</span>
-            <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Transactions</span> processed in FactorySense RFID.</span>
+            <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Transactions</span> securely processed in FactorySense RFID.</span>
           </p>
 
           <p>

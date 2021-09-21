@@ -2,7 +2,7 @@
     <div class="relative">
       <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
       <!-- <div class="max-w-7xl mx-auto sm:px-6 lg:px-8"> -->
-      <div class="mx-auto sm:px-6 lg:px-8">
+      <div class="mx-auto">
         <div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
           <div class="absolute inset-0">
             <img class="h-full w-full object-cover" src="~assets/images/office_bg.jpg" alt="People working on laptops">
