@@ -3,18 +3,18 @@
   <div class="py-24 bg-white sm:py-32">
     <div class="max-w-md mx-auto pl-4 pr-8 sm:max-w-lg sm:px-6 lg:max-w-7xl lg:px-8">
       <h1 class="text-4xl leading-10 font-extrabold tracking-tight text-gray-900 sm:text-5xl sm:leading-none lg:text-6xl">Terms of Service</h1>
-      <p class="mt-6 text-xl leading-normal">Last updated October 26, 2021</p>
+      <p class="mt-6 text-xl leading-normal">Last updated November 25, 2021</p>
       <p class="mt-6 text-xl leading-normal">
         From everyone at FactorySense RFID, thank you for using our products! There are thousands of people using FactorySense products every day and we are grateful that you are one of them.
       </p>
       <p class="mt-6 text-xl leading-normal">
-        Your use of our products and services are subject to these Terms of Service. If you do not agree to all of the following, you may not use our products or access our services in any manner. These Terms of Service may be updated in the future, and a current copy will always be made available here on our website. Most changes relate to clarifying terms, but some impact new services or changes in services previously offered. We encourage you to check back to this page periodically for updates.
+        Your use of our products and services are subject to these Terms of Service. These are a binding contract between you and the Company. If you do not agree to all of the following, you may not use our Products or access our Services in any manner. These Terms of Service may be updated in the future, and a current copy will always be made available here on our website. Most changes relate to clarifying terms, but some impact new services or changes in services previously offered. We encourage you to check back to this page periodically for updates.
       </p>
       <p class="mt-6 text-xl leading-normal">
         When we say "Services", we mean any digital product created and maintained by FactorySense. That includes our interactive website, as well as the software and firmware integrated into our Products. When we say "Products", we are referring to the physical products installed into customer environments for the purpose of RFID tracking, which includes but is not limited to: hub or gateway devices, RFID readers, antennas, cabling, RFID tags, and RFID printers.
       </p>
       <p class="mt-6 text-xl leading-normal">
-        When you use our Products and Services, now or in the future, you are agreeing to the latest Terms of Service. That's true for any of our existing and future products and all features that we add to our Products and Services over time. There may be times when we do not exercise or enforce any right or provision of the Terms of Service; in doing so, we are not waivoing that right or provision. <strong>These terms do contain a limitation of our liability.</strong>
+        When you use our Products and Services, now or in the future, you are agreeing to the latest Terms of Service. That's true for any of our existing and future products and all features that we add to our Products and Services over time. There may be times when we do not exercise or enforce any right or provision of the Terms of Service; in doing so, we are not waivoing that right or provision. <strong>These terms do contain a limitation of our liability and a limited warranty for Products and Services.</strong>
       </p>
       <p class="mt-6 text-xl leading-normal">
         If you violate any of the terms, we may terminate your account. Please do not violate our terms.
@@ -188,6 +188,27 @@
         <li>
           In other words: choosing to use our Services does mean you are making a bet on us. If the bet does not work out, that’s on you, not us. We do our darnedest to be as safe a bet as possible through careful management of the business; investments in security, infrastructure, and talent; and in general giving a damn. If you choose to use our Services, thank you for betting on us.
         </li>
+      </ol>
+
+
+      <h2 class="mt-6 text-2xl leading-10 font-extrabold tracking-tight text-gray-900 sm:text-3xl sm:leading-none lg:text-3xl">Limited Warranty on Products</h2>
+      <ol class="list-decimal ml-6">
+        <li class="font-bold text-xl">
+          All purchases of Products include a one-year limited warranty from the date of purchase. This includes RFID readers, cables, antennas, hub or gateway devices, and printers.
+        </li>
+        <li class="font-bold text-xl">
+          OTHER THAN THE LIMITED WARRANTY DESCRIBED ABOVE, WE DISCLAIM AND YOU HEREBY WAIVE ANY AND ALL OTHER ORAL OR WRITTEN WARRANTIES IN RESPECT OF THE PRODUTS OR SERVICES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. SELLER EXPRESSLY DISCLAIMS ANY AND ALL OTHER WARRANTIES UNLESS EXPRESSLY MADE IN WRITING AND SIGNED BY AN EXECUTIVE OFFICER OF THE COMPANY.
+        </li>
+        <li class="font-bold text-xl">
+          Seller's liability shall be limited, at the Seller's option, to repair or replacement of non-conforming Products or refund of the purchase price. The foregoing sets forth Seller's entire obligation and liability to Customer in respect of the Products and Services, and Customer accepts the same as its entire right and sole remedy to any breach by Seller.
+        </li>
+        <li class="font-bold text-xl">
+          IN NO EVENT OR CIRCUMSTANCE WHATSOEVER SHALL SELLER BE LIABLE FOR ANY CONSEQUENTIAL, INCIDENTAL, INDIRECT, EXMEPLARY, PUNITIVE, OR SPECIAL DAMAGES OF ANY TYPE OR NATURE EVEN IF SELLER HAS REASON TO KNOW OF THE POSSIBILITY OF SUCH DAMAGES.
+        </li>
+        <li class="font-bold text-xl">
+          SELLER'S TOTAL LIABILITY ARISING OUT OF OR IN ANY WAY RELATED TO THE PRODUCTS OR SERVICES, WHETHER BASED IN CONTRACT, WARRANTY, TORT (INCLUDING NEGLIGENCE AND/OR GROSS  NEGLIGENCE), STRICT LIABILITY, OR ANY OTHER CAUSE OF ACTION, SHALL IN NO EVENT EXCEED THE PURCHASE PRICE ACTUALLY PAID BY CUSTOMER FOR THE PRODUCTS OR SERVICES TO WHICH SUCH LIABILITY RELATES.
+        </li>
+
       </ol>
 
 
