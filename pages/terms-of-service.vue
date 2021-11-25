@@ -1,7 +1,7 @@
 <template>
 <div>
   <div class="py-24 bg-white sm:py-32">
-    <div class="max-w-md mx-auto pl-4 pr-8 sm:max-w-lg sm:px-6 lg:max-w-7xl lg:px-8">
+    <div class="max-w-md mx-auto sm:max-w-lg sm:px-6 lg:max-w-7xl lg:px-8">
       <h1 class="text-4xl leading-10 font-extrabold tracking-tight text-gray-900 sm:text-5xl sm:leading-none lg:text-6xl">Terms of Service</h1>
       <p class="mt-6 text-xl leading-normal">Last updated November 25, 2021</p>
       <p class="mt-6 text-xl leading-normal">
