@@ -17,9 +17,11 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     script: [
       {
-        src: 'https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js',
+        // Commented out CDN for local development
+        //src: 'https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js',
+        src: '/alpine.min.js',
         body: true,
-      }
+      },
     ],
   },
 

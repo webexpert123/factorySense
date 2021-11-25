@@ -80,30 +80,6 @@
               Reduce the amount of money wasted on replacing lost tools.  With a durable RFID sticker attached, you will be able to find your tooling no matter where it is.
             </dd>
           </div>
-
-          <div class="relative">
-            <dt>
-              <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-              </svg>
-              <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Reporting</p>
-            </dt>
-            <dd class="mt-2 ml-9 text-base text-gray-500">
-              Find what you need with advanced filters, bulk actions, and quick views.
-            </dd>
-          </div>
-
-          <div class="relative">
-            <dt>
-              <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-              </svg>
-              <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Mobile app &amp; Handheld Scanning</p>
-            </dt>
-            <dd class="mt-2 ml-9 text-base text-gray-500">
-              Use the mobile app with a handheld RFID scanner to super-charge your RFID system.
-            </dd>
-          </div>
         </dl>
       </div>
     </div>

@@ -8,6 +8,7 @@ module.exports = {
   plugins: [
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
+    require('@tailwindcss/aspect-ratio'),
   ],
   experimental: {
     darkModeVariant: true,
@@ -20,8 +21,8 @@ module.exports = {
       'layouts/**/*.vue',
       'pages/**/*.vue',
       'plugins/**/*.js',
-      'nuxt.config.js'
-    ]
+      'nuxt.config.js',
+    ],
   },
   dark: 'class',
   theme: {

@@ -110,11 +110,8 @@
           <a href="/integrations" class="text-base font-medium text-gray-500 hover:text-gray-900">
             Integrations
           </a>
-          <a href="/howrfidworks" class="text-base font-medium text-gray-500 hover:text-gray-900">
-            How RFID Works
-          </a>
           <a href="/company" class="text-base font-medium text-gray-500 hover:text-gray-900">
-            Company
+            Why FactorySense
           </a>
         </nav>
         <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">

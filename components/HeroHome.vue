@@ -1,29 +1,35 @@
 <template>
-    <div class="relative">
-      <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
-      <!-- <div class="max-w-7xl mx-auto sm:px-6 lg:px-8"> -->
-      <div class="mx-auto">
-        <div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
-          <div class="absolute inset-0">
-            <img class="h-full w-full object-cover" src="~assets/images/office_bg.jpg" alt="People working on laptops">
-            <div class="absolute inset-0 bg-gradient-to-r from-gray-500 to-gray-400 mix-blend-multiply"></div>
-          </div>
-          <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-52 lg:px-8">
-            <h1 class="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-              <span class="block text-white drop-shadow-lg ">Take control of your inventory, assets, and work in process.</span>
-            </h1>
-            <p class="mt-6 max-w-xl mx-auto text-center text-2xl font-bold text-blue-200 sm:max-w-3xl">
-              FactorySense is the cloud-based all-in-one RFID system. Everything you need to identify, track, and manage your materials comes out of the box, increasing your ROI and accelerating your RFID project timeline.
-            </p>
-            <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-              <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
-                <a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 sm:px-8">
-                  Get started
-                </a>
-              </div>
-            </div>
+    <div class="lg:grid lg:grid-cols-12 lg:gap-8 py-28">
+        <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
+          <h1>
+            <span class="mt-1 block text-4xl tracking-loose font-semibold sm:text-5xl xl:text-6xl">
+              <span class="block text-gray-900">We automate the tracking of your</span>
+              <span class="block text-indigo-600">inventory, wip, and assets</span>
+              <span class="block text-gray-900">to automate ERP actions and eliminate missing items.</span>
+            </span>
+          </h1>
+          <p class="mt-3 py-4 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+            Cloud-based RFID tracking leverages location information to drive big picture results. Experience 100% inventory accuracy and eliminate lost kits today.
+          </p>
+          <a href="#" class="mt-8 inline-flex text-base font-medium text-blue-600 underline">Learn more &rarr;</a>
+        </div>
+
+        <div class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
+          <svg class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-8 scale-75 origin-top sm:scale-100 lg:hidden" width="640" height="784" fill="none" viewBox="0 0 640 784" aria-hidden="true">
+            <defs>
+              <pattern id="4f4f415c-a0e9-44c2-9601-6ded5a34a13e" x="118" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+              </pattern>
+            </defs>
+            <rect y="72" width="640" height="640" class="text-gray-50" fill="currentColor" />
+            <rect x="118" width="404" height="784" fill="url(#4f4f415c-a0e9-44c2-9601-6ded5a34a13e)" />
+          </svg>
+          <div class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
+            <button type="button" class="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+              <span class="sr-only">Watch our video to learn more</span>
+              <img class="w-full" src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
+            </button>
           </div>
         </div>
       </div>
-    </div>
 </template>

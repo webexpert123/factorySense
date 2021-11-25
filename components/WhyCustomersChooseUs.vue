@@ -22,7 +22,7 @@
 
         <div class="flex flex-col bg-gray-100 border-2 rounded-2xl shadow-xl">
           <div class="flex-1 relative pt-8 px-6 pb-8 md:px-8">
-            <h3 class="text-xl font-bold text-gray-900">Data Privacy</h3>
+            <h3 class="text-xl font-bold text-gray-900">Security</h3>
             <p class="mt-4 text-base text-gray-500">Leverage the security of our cloud-based system, or integrate with your company's own Single Sign-On (SSO) provider.</p>
           </div>
         </div>
