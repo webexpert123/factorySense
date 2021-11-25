@@ -2,16 +2,42 @@
     <div class="lg:grid lg:grid-cols-12 lg:gap-8 py-28">
         <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
           <h1>
-            <span class="mt-1 block text-4xl tracking-loose font-semibold sm:text-5xl xl:text-6xl">
-              <span class="block text-gray-900">We automate the tracking of your</span>
-              <span class="block text-indigo-600">inventory, wip, and assets</span>
-              <span class="block text-gray-900">to automate ERP actions and eliminate missing items.</span>
+            <span class="mt-1 block text-6xl tracking-loose font-bold sm:text-5xl xl:text-6xl">
+              <span class="block text-gray-900">Automate transactions and eliminate missing items with RFID tracking for your <span class="text-indigo-600">inventory, wip, and assets</span>.</span>
             </span>
           </h1>
-          <p class="mt-3 py-4 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-            Cloud-based RFID tracking leverages location information to drive big picture results. Experience 100% inventory accuracy and eliminate lost kits today.
+          <p class="mt-3 py-4 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-xl xl:text-2xl">
+            Our cloud-first plug-and-play RFID system helps you leverage item location information to drive measurable process improvements across your supply chain and factory floor. Become your company's superhero by eliminating lost items and perfecting inventory and supply chain accuracy.
           </p>
-          <a href="#" class="mt-8 inline-flex text-base font-medium text-blue-600 underline">Learn more &rarr;</a>
+          
+          <dl class="ml-10 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:grid-rows-4 sm:grid-flow-col sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
+            <div class="relative">
+              <dt>
+                <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Integrate RFID data with your ERP system</p>
+              </dt>
+              <dt class="mt-2">
+                <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Eliminate inventory exceptions &amp; manual cycle counting</p>
+              </dt>
+              <dt class="mt-2">
+                <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Track any object you can put a sticker on like assets and travellers</p>
+              </dt>
+              <dt class="mt-2">
+                <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">No batteries to change, servers to manage, or databases to maintain</p>
+              </dt>
+            </div>
+          </dl>
         </div>
 
         <div class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
