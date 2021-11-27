@@ -24,7 +24,7 @@
                 million transactions
               </dt>
               <dd class="order-1 text-2xl font-extrabold text-indigo-600 sm:text-3xl">
-                180+
+                >300
               </dd>
             </div>
             <div class="flex flex-col px-8 pt-8">
@@ -32,15 +32,15 @@
                 items tracked
               </dt>
               <dd class="order-1 text-2xl font-extrabold text-indigo-600 sm:text-3xl">
-                12+ Million
+                >8 million
               </dd>
             </div>
             <div class="flex flex-col px-8 pt-8">
               <dt class="order-2 text-base font-medium text-gray-500">
-                system uptime<sup>*</sup>
+                system uptime
               </dt>
               <dd class="order-1 text-2xl font-extrabold text-indigo-600 sm:text-3xl">
-                99.999%
+                99.98%
               </dd>
             </div>
           </dl>

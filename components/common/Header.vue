@@ -1,7 +1,7 @@
 <template>
 
   <header>
-    <div class="relative bg-white shadow">
+    <div class="relative bg-white shadow" x-data="{ isOpen: false }">
       <div class="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
         <div class="flex justify-start lg:w-0 lg:flex-1">
           <span class="sr-only">FactorySense RFID</span>
@@ -18,7 +18,7 @@
           </button>
         </div>
         <nav class="hidden md:flex space-x-10">
-          <div x-data="{ isOpen: false }"  class="relative">
+          <div class="relative">
             <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
             <button  type="button" class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" 
               x-bind:aria-expanded="isOpen" x-on:click="isOpen = !isOpen" >
@@ -30,13 +30,13 @@
 
             <div x-show="isOpen" 
               x-on:click.away="isOpen = false"
-              x-transition:enter="transition ease-out duration-200"
+              x-transition:enter="transition ease-out duration-150"
               x-transition:enter-start="opacity-0 -translate-y-1"
               x-transition:enter-end="opacity-100 translate-y-0"
-              x-transition:leave="transition ease-in duration-150"
+              x-transition:leave="transition ease-in duration-100"
               x-transition:leave-start="opacity-100 translate-y-0"
               x-transition:leave-end="opacity-0 -translate-y-1"
-              class=" absolute z-10 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
+              class="absolute z-10 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
               <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 grid-cols-1">
                   <a href="/medical" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200">
