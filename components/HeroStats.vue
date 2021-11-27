@@ -14,8 +14,7 @@
         <h2 class="text-sm font-semibold tracking-wide uppercase">
           <span class="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">Valuable Metrics</span>
         </h2>
-        <p class="mt-3 text-3xl font-extrabold text-white">Get actionable data delivered in real time</p>
-        <p class="mt-5 text-lg text-gray-300">With a state of the art tracking system from FactorySense RFID, you will always know where tagged materials are in your plant or extended in your supply chain.</p>
+        <p class="mt-3 text-3xl font-extrabold text-white">Actionable data delivered in real time</p>
         <div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
           <p>
             <span class="block text-2xl font-bold text-white">> 300 Million</span>
@@ -24,12 +23,12 @@
 
           <p>
             <span class="block text-2xl font-bold text-white">>8 million</span>
-            <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Distinct SKUs</span> being tracked by FactorySense customers. Customers have tracked everything from calibrated assets to travellers successfully with FactorySense RFID.</span>
+            <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Distinct SKUs</span> currently tracked by FactorySense customers. Customers have tracked everything from calibrated assets to travellers successfully with FactorySense RFID.</span>
           </p>
 
           <p>
             <span class="block text-2xl font-bold text-white">99.8%</span>
-            <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Customer satisfaction</span> according to our latest surveys.</span>
+            <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Customer satisfaction</span> according to our latest survey.</span>
           </p>
 
           <p>

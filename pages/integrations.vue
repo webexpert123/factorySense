@@ -46,7 +46,7 @@
         180+
       </h1>
       <p class="drop-shadow mt-3 max-w-md mx-auto text-base text-gray-50 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-        FactorySense currently integrates with over 180 third-party services, including most dozens of ERP platforms along with many popular services like SalesForce, Hubspot, and the Google Workspaces suite of tools.
+        FactorySense currently integrates with over 180 third-party services, including most ERP platforms like SAP and Oracle, and SalesForce.
       </p>
     </div>
     <!-- End Integration Count -->

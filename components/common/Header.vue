@@ -4,7 +4,7 @@
     <div class="relative bg-white shadow">
       <div class="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
         <div class="flex justify-start lg:w-0 lg:flex-1">
-          <span class="sr-only">Workflow</span>
+          <span class="sr-only">FactorySense RFID</span>
           <a href="/">
             <img class="h-8 w-auto sm:h-10" src="~assets/fs_logo.svg" alt="">
           </a>
@@ -63,7 +63,7 @@
                     </div>
                     <div class="ml-4">
                       <p class="text-base font-medium text-gray-900">
-                        Aerospace
+                        Aerospace &amp; Defense
                       </p>
                       <p class="mt-1 text-sm text-gray-500">
                         Track kits, assets, and inventory in realtime
@@ -71,7 +71,7 @@
                     </div>
                   </a>
 
-                  <a href="/electronicsdefense" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200">
+                  <a href="/electronics" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200">
                     <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-gradient-to-r from-purple-600 to-indigo-600 text-white sm:h-12 sm:w-12">
                       <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
@@ -79,10 +79,10 @@
                     </div>
                     <div class="ml-4">
                       <p class="text-base font-medium text-gray-900">
-                        Electronics &amp; Defense
+                        Electronics
                       </p>
                       <p class="mt-1 text-sm text-gray-500">
-                        Robust tracking tailored for electronics &amp; defense manufacturers
+                        Out-of-the-box RFID tailored for electronics manufacturers
                       </p>
                     </div>
                   </a>
@@ -109,6 +109,9 @@
 
           <a href="/integrations" class="text-base font-medium text-gray-500 hover:text-gray-900">
             Integrations
+          </a>
+          <a href="/consulting" class="text-base font-medium text-gray-500 hover:text-gray-900">
+            Consulting
           </a>
           <a href="/company" class="text-base font-medium text-gray-500 hover:text-gray-900">
             Why FactorySense
@@ -170,7 +173,7 @@
                     </svg>
                   </div>
                   <div class="ml-4 text-base font-medium text-gray-900">
-                    Aerospace
+                    Aerospace &amp; Defense
                   </div>
                 </a>
 
@@ -204,6 +207,9 @@
             <div class="grid grid-cols-2 gap-4">
               <a href="/integrations" class="text-base font-medium text-gray-900 hover:text-gray-700">
                 Integrations
+              </a>
+              <a href="/consulting" class="text-base font-medium text-gray-900 hover:text-gray-700">
+                Consulting
               </a>
               <a href="/howrfidworks" class="text-base font-medium text-gray-500 hover:text-gray-900">
                 How RFID Works

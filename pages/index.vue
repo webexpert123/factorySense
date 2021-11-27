@@ -2,9 +2,9 @@
 <div>
     <HeroHome />
     <HeroStats />
+    <TrackAnything />
     <LogoCloud />
     <BuiltForEfficiency />
-    <TrackAnything />
     <WhyCustomersChooseUs />
 </div>
 </template>
