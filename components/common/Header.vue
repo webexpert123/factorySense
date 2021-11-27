@@ -38,7 +38,7 @@
               x-transition:leave-end="opacity-0 -translate-y-1"
               class=" absolute z-10 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
               <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
+                <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 grid-cols-1">
                   <a href="/medical" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200">
                     <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-gradient-to-r from-purple-600 to-indigo-600 text-white sm:h-12 sm:w-12">
                       <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -47,7 +47,7 @@
                     </div>
                     <div class="ml-4">
                       <p class="text-base font-medium text-gray-900">
-                        Medical
+                        Medical Device &amp; Drug Manufacturers
                       </p>
                       <p class="mt-1 text-sm text-gray-500">
                         RFID tracking for medical device and drug manufacturing
@@ -63,7 +63,7 @@
                     </div>
                     <div class="ml-4">
                       <p class="text-base font-medium text-gray-900">
-                        Aerospace &amp; Defense
+                        Aerospace &amp; Defense Manufacturers
                       </p>
                       <p class="mt-1 text-sm text-gray-500">
                         Track kits, assets, and inventory in realtime
@@ -79,7 +79,7 @@
                     </div>
                     <div class="ml-4">
                       <p class="text-base font-medium text-gray-900">
-                        Electronics
+                        Electronics Manufacturers
                       </p>
                       <p class="mt-1 text-sm text-gray-500">
                         Out-of-the-box RFID tailored for electronics manufacturers
@@ -87,21 +87,6 @@
                     </div>
                   </a>
 
-                  <a href="warehousing" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200">
-                    <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-gradient-to-r from-purple-600 to-indigo-600 text-white sm:h-12 sm:w-12">
-                      <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
-                      </svg>
-                    </div>
-                    <div class="ml-4">
-                      <p class="text-base font-medium text-gray-900">
-                        Warehousing
-                      </p>
-                      <p class="mt-1 text-sm text-gray-500">
-                        Trace inventory from receipt to putaway to fulfillment
-                      </p>
-                    </div>
-                  </a>
                 </div>
               </div>
             </div>

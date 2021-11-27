@@ -6,7 +6,7 @@
           FactorySense is an all-in-one RFID system built for efficiency
         </h2>
         <p class="mt-4 max-w-3xl text-lg text-purple-200">
-          We focused on what matters most in manufacturing, asset tracking, and distribution activities to deliver maximum value to our user community.
+          We built a cloud-based system with out-of-the-box tracking for what matters most in manufacturing - including asset tracking, and material movement - to deliver maximum value to our user community.
         </p>
         <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
           <div>
@@ -140,7 +140,7 @@
             <div class="mt-6">
               <h3 class="text-lg font-medium text-white">Customers Love Us</h3>
               <p class="mt-2 text-base text-purple-200">
-                Customers love FactorySense RFID so much, most of our new business comes from existing users who bring us to new companies.
+                Customers love FactorySense RFID for its ease of use, speed of deployment, and fanatical support.
               </p>
             </div>
           </div>
