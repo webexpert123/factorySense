@@ -10,7 +10,7 @@
             Our cloud-first plug-and-play RFID system uses realtime item location information to drive measurable process improvements across your supply chain and factory floor. Become your company's superhero by eliminating lost items and perfecting inventory and supply chain accuracy.
           </p>
 
-          <dl class="ml-10 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:grid-rows-4 sm:grid-flow-col sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
+          <dl class="mt-8 ml-10 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:grid-rows-4 sm:grid-flow-col sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
             <div class="relative">
               <dt>
                 <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
