@@ -1,7 +1,7 @@
 <template>
 
   <header>
-    <div class="relative bg-white shadow" x-data="{ isOpen: false }">
+    <div class="relative bg-white shadow" x-data="{ isOpen: false, mobileNavIsOpen: false }">
       <div class="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
         <div class="flex justify-start lg:w-0 lg:flex-1">
           <span class="sr-only">FactorySense RFID</span>
@@ -10,7 +10,7 @@
           </a>
         </div>
         <div class="-mr-2 -my-2 md:hidden">
-          <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+          <button x-on:click="mobileNavIsOpen = !mobileNavIsOpen" type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
             <span class="sr-only">Open menu</span>
             <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -116,15 +116,23 @@
           From: "opacity-100 scale-100"
           To: "opacity-0 scale-95"
       -->
-      <div class="absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+      <div x-show="mobileNavIsOpen" 
+            x-on:click.away="mobileNavIsOpen = false"
+            x-transition:enter="ease-out duration-200"
+            x-transition:enter-start="opacity-0 scale-95"
+            x-transition:enter-end="opacity-100 scale-100"
+            x-transition:leave="ease-in duration-100"
+            x-transition:leave-start="opacity-100 scale-100"
+            x-transition:leave-end="opacity-0 scale-95" 
+          class="absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
         <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
           <div class="pt-5 pb-6 px-5">
             <div class="flex items-center justify-between">
               <div>
-                <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-purple-600-to-indigo-600.svg" alt="Workflow">
+                <img class="h-8 w-auto" src="~assets/fs_logo.svg" alt="FactorySense RFID">
               </div>
               <div class="-mr-2">
-                <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                <button x-on:click="mobileNavIsOpen = !mobileNavIsOpen" type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                   <span class="sr-only">Close menu</span>
                   <!-- Heroicon name: outline/x -->
                   <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -168,18 +176,6 @@
                   </div>
                   <div class="ml-4 text-base font-medium text-gray-900">
                     Electronics
-                  </div>
-                </a>
-
-                <a href="#" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
-                  <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-gradient-to-r from-purple-600 to-indigo-600 text-white">
-                    <!-- Heroicon name: outline/question-mark-circle -->
-                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                  </div>
-                  <div class="ml-4 text-base font-medium text-gray-900">
-                    Warehousing
                   </div>
                 </a>
               </nav>
