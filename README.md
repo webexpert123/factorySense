@@ -1,3 +1,15 @@
+### Deployment to Netlify
+After committing a change, push to the gitlab branch.
+Netlify is hooked into the gitlab/master repo, and will
+start re-deploying the site upon push.  Run the following:
+
+git push gitlab master
+
+And watch the magic happen.
+
+
+
+### Development environment setup
 # fs-w3
 
 ## Build Setup
