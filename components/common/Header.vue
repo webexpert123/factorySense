@@ -193,9 +193,6 @@
               <a href="/consulting" class="text-base font-medium text-gray-900 hover:text-gray-700">
                 Consulting
               </a>
-              <a href="/howrfidworks" class="text-base font-medium text-gray-500 hover:text-gray-900">
-                How RFID Works
-              </a>
               <a href="/company" class="text-base font-medium text-gray-900 hover:text-gray-700">
                 Company
               </a>
