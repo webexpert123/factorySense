@@ -17,9 +17,9 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     script: [
       {
-        // Commented out CDN for local development
-        //src: 'https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js',
-        src: '/alpine.min.js',
+        src: 'https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js',
+        // Uncomment out CDN for local development
+        // src: '/alpine.min.js',
         body: true,
       },
     ],
@@ -46,7 +46,15 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    'vue-plausible'
   ],
+
+  plausible: {
+    domain: 'getfactorysense.com', // Your site's domain, as declared by you in Plausible's settings.
+    hashMode: true, // Enables tracking based on URL hash changes.
+    trackLocalhost: false, // Enables tracking on localhost.
+    piHost: 'https://plausible.io', // Plausible's API host to use. Change this if you are self-hosting.
+  },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
