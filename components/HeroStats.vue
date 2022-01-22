@@ -12,9 +12,9 @@
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
       <div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
         <h2 class="text-sm font-semibold tracking-wide uppercase">
-          <span class="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">Valuable Metrics</span>
+          <span class="font-Lora font-semibold bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">Valuable Metrics</span>
         </h2>
-        <p class="mt-3 text-3xl font-extrabold text-white">Actionable data delivered in real time</p>
+        <p class="mt-3 text-3xl font-Lora font-semibold text-white">Actionable data delivered in real time</p>
         <div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
           <p>
             <span class="block text-2xl font-bold text-white">> 300 Million</span>

@@ -3,8 +3,8 @@
   <div class="bg-white">
     <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
       <div>
-        <h2 class="text-base font-semibold text-indigo-600 uppercase tracking-wide">Track Anything</h2>
-        <p class="mt-2 text-3xl font-extrabold text-gray-900">What can you track with FactorySense RFID?</p>
+        <h2 class="font-Lora font-semibold text-base text-indigo-600 uppercase tracking-wide">Track Anything</h2>
+        <p class="font-Lora font-semibold mt-2 text-3xl text-gray-900">What can you track with FactorySense RFID?</p>
         <p class="mt-4 text-lg text-gray-500">FactorySense is an all-in-one cloud-based RFID system that includes all of the hardware, RFID stickers, and other supplies you will need to start RFID tracking today.</p>
       </div>
       <div class="mt-12 lg:mt-0 lg:col-span-2">

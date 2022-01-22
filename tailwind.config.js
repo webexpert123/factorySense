@@ -11,6 +11,7 @@ module.exports = {
     require('@tailwindcss/aspect-ratio'),
   ],
   content: [
+    "./src/**/*.{js,ts,jsx,tsx}",
     'components/**/*.vue',
     'layouts/**/*.vue',
     'pages/**/*.vue',
@@ -23,5 +24,8 @@ module.exports = {
       lg: '1200px',
       xl: '1920px',
     },
+    fontFamily: {
+      'Lora': ['Lora', 'sans-serif']
+    }
   }
 }

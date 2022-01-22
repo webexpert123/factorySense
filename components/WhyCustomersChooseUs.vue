@@ -4,7 +4,7 @@
     <!-- Header -->
     <div class="relative">
       <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-        <h1 class="text-3xl font-extrabold text-gray-900 text-center">Why leading companies choose FactorySense RFID</h1>
+        <h1 class="font-Lora font-semibold text-3xl text-gray-900 text-center">Why leading companies choose FactorySense RFID</h1>
       </div>
     </div>
 

@@ -18,7 +18,7 @@
     </nav>
 
         <p class="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-          &copy; 2021 FactorySense RFID. All rights reserved.<br />
+          &copy; 2022 FactorySense RFID. All rights reserved.<br />
           Made with <span class="text-red-500">♥</span> in Dallas, Texas
         </p>
       </div>

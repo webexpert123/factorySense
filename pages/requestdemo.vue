@@ -30,13 +30,13 @@
               We’d love to hear from you! Send us a message using the form below, or email us. We’d love to hear from you! Send us a message using the form opposite, or email us.
             </p>
             <form name="request-a-demo" method="POST" data-netlify="true" class="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
-              <div>
+              <div class="sm:col-span-2">
                 <label for="first-name" class="block text-sm font-medium text-gray-700">First name</label>
                 <div class="mt-1">
                   <input id="first-name" type="text" name="first-name" autocomplete="given-name" class="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">
                 </div>
               </div>
-              <div>
+              <div class="sm:col-span-2">
                 <label for="last-name" class="block text-sm font-medium text-gray-700">Last name</label>
                 <div class="mt-1">
                   <input id="last-name" type="text" name="last-name" autocomplete="family-name" class="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">

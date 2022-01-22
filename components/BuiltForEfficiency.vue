@@ -2,7 +2,7 @@
     <!-- Built for Efficiency -->
     <div class="bg-gradient-to-r from-purple-800 to-indigo-700">
       <div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
-        <h2 class="text-3xl font-extrabold text-white tracking-tight">
+        <h2 class="font-Lora font-semibold text-3xl text-white tracking-tight">
           FactorySense is an all-in-one RFID system built for efficiency
         </h2>
         <p class="mt-4 max-w-3xl text-lg text-purple-200">

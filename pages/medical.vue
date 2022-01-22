@@ -19,8 +19,8 @@
       <div class="hidden lg:block bg-white absolute top-0 bottom-0 left-3/4 w-screen"></div>
       <div class="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
         <div>
-          <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">RFID Intelligence</h2>
-          <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Smarter Lab Spaces</h3>
+          <h2 class="font-Lora font-semibold text-base text-indigo-600 tracking-wide uppercase">RFID Intelligence</h2>
+          <h3 class="mt-2 text-3xl font-Lora font-medium leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Smarter Lab Spaces</h3>
         </div>
       </div>
       <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
@@ -53,7 +53,7 @@
               <li>Monitor supply levels and automatically "push" materials when, where, and as-needed</li>
               <li>Track spare equipment supplies to ensure your labs never shut down because of missing items</li>
             </ul>
-            <h3>What can you track with FactorySense?</h3>
+            <h3 class="font-Lora font-medium text-3xl">What can you track with FactorySense?</h3>
             <dl class="ml-1 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:grid-rows-4 sm:grid-flow-col sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
               <div class="relative">
                 <dt>
@@ -102,7 +102,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
               </svg>
             </div>
-            <p class="mt-5 text-lg leading-6 font-bold text-white">Global Scale</p>
+            <p class="font-Lora font-semibold mt-5 text-lg leading-6 text-white">Global Scale</p>
           </dt>
           <dd class="mt-2 text-base text-gray-50">
             Customers have deployed FactorySense worldwide to help eliminate inventory exceptions, speed up labs, find missing tools, and visualize out-of-sequence activities
@@ -117,7 +117,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
               </svg>
             </div>
-            <p class="mt-5 text-lg leading-6 font-bold text-white">Eliminate Manual Activities</p>
+            <p class="font-Lora font-semibold mt-5 text-lg leading-6 text-white">Eliminate Manual Activities</p>
           </dt>
           <dd class="mt-2 text-base text-gray-50">
             We've used the realtime movement of materials and WIP to automate transactions in ERP and MES platforms, powering one source of accurate information
@@ -132,7 +132,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
             </div>
-            <p class="mt-5 text-lg leading-6 font-bold text-white">Real-Time Data for Decisionmakers</p>
+            <p class="font-Lora font-semibold mt-5 text-lg leading-6 text-white">Real-Time Data for Decisionmakers</p>
           </dt>
           <dd class="mt-2 text-base text-gray-50">
             FactorySense is a realtime RFID system, meaning that activity is recorded and transactions are automated as material and inventory moves throughout your facilities
@@ -153,8 +153,8 @@
     <div class="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
       <div class="lg:col-start-2 lg:pl-8">
         <div class="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
-          <h2 class="leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Support Good Manufacturing Practices</h2>
-          <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Track Work in Process</h3>
+          <h2 class="font-Lora font-semibold leading-6 text-indigo-600 tracking-wide uppercase">Support Good Manufacturing Practices</h2>
+          <h3 class="font-Lora font-medium mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Track Work in Process</h3>
           <p class="mt-8 text-lg text-gray-500">We know that medical companies are strongly mission-driven, and gaps in production can lead not only to lost revenue but to drugs and devices not ending up in the hands of those who need them. That's why we offer a fully-customizable WIP tracking system for medical customers to take maximum advantage of realtime visibility into their production floors.</p>
           <div class="mt-5 prose prose-indigo text-gray-500">
             <p>Customers have used FactorySense to track WIP throughout their locations and plants and to coordinate production based on 100% accurate information. Stop planning by spreadsheet only to find that surprises are lurking. With FactorySense you'll always have accurate information about:</p>
@@ -166,7 +166,7 @@
               <li>Process timing</li>
               <li>Manufacturing bottlenecks</li>
             </ul>
-            <h3>How we’re different</h3>
+            <h3 class="font-Lora font-medium">How we’re different</h3>
             <p>FactorySense is a Passive RFID system, meaning that there are no expensive "hard tags" that are prone to malfunctioning and there are no batteries to change. Our RFID stickers can be placed on almost anything, and once stickered you'll have instant visibility into where that item is and where it has been.</p>
             <p>We can combine realtime location data with a robust rule-set to automate transactions in your ERP or MES system, as well as trigger alerting before problems happen to drive increases in your yield and enhance traceability.</p>
           </div>
