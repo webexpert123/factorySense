@@ -498,6 +498,32 @@
             lg:text-3xl
           "
         >
+          Choice of Law and Venue
+        </h2>
+        <ol class="list-decimal ml-6">
+          <li class="">
+            This agreement shall be governed by and interpreted under the
+            internal laws of the state of Texas, U.S.A., without regard to its
+            conflict of laws rules.
+          </li>
+          <li class="">
+            Any action brought by any party hereto shall be brought within the
+            State of Texas, County of Collin.
+          </li>
+        </ol>
+
+        <h2
+          class="
+            mt-6
+            text-2xl
+            leading-10
+            font-extrabold
+            tracking-tight
+            text-gray-900
+            sm:text-3xl sm:leading-none
+            lg:text-3xl
+          "
+        >
           Liability
         </h2>
         <ol class="list-decimal ml-6">
