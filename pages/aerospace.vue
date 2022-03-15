@@ -4,17 +4,14 @@
   <div class="py-24 bg-gray-50 sm:py-32">
     <div class="max-w-md mx-auto pl-4 pr-8 sm:max-w-lg sm:px-6 lg:max-w-7xl lg:px-8">
       <h1 class="font-Lora font-semibold text-4xl leading-10 tracking-tight text-gray-900 text-center sm:text-5xl sm:leading-none lg:text-6xl">
-        The aerospace &amp; defense industry's fastest and most effective RFID tracking
+        Stop wasting time and money searching for missing assets and WIP.
       </h1>
       <p class="mt-6 max-w-3xl mx-auto text-2xl leading-normal text-indigo-600 font-semibold text-center">
-        Get rapid ROI. Eliminate surprises. Track your plant's assets, kits, and inventory.
+        FactorySense RFID&trade; powers your value streams with realtime tracking for anything you can put a sticker on. Avoid expensive consultants, complicated engineering teams, and reinventing the wheel with our powerful out-of-the-box tracking functionality.
       </p>
     </div>
   </div>
-  <!-- /Page heading -->
-
-  <BuiltForEfficiency />
-  
+  <!-- /Page heading -->  
 
   <!-- Content Section: Three Points -->
   <div class="relative bg-gray-800">
@@ -52,7 +49,6 @@
   </div>
   <!-- /Content Section 0 -->
 
-
   <!-- Content Section: Use Cases -->
   <div class="py-12 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -62,7 +58,7 @@
           Popular Use Cases Are Built-In
         </p>
         <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-          Customers around the world have utilized FactorySense RFID to drive cost savings, increase traceability, and eliminate production surprises. Popular use cases already embeded into the system include:
+          Aerospace and defense manufacturers use FactorySense RFID to drive cost savings, increase traceability, and eliminate production surprises. Popular use cases supported out of the box include:
         </p>
       </div>
 
@@ -134,6 +130,9 @@
     </div>
   </div>
   <!-- /Content Section: Use Cases -->
+
+  <BuiltForEfficiency />
+
 
 </div>
 </template>

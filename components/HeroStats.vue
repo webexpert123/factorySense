@@ -14,7 +14,7 @@
         <h2 class="text-sm font-semibold tracking-wide uppercase">
           <span class="font-Lora font-semibold bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">Valuable Metrics</span>
         </h2>
-        <p class="mt-3 text-3xl font-Lora font-semibold text-white">Actionable data delivered in real time</p>
+        <p class="mt-3 text-3xl font-Lora font-semibold text-white">Out of the box asset tracking</p>
         <div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
           <p>
             <span class="block text-2xl font-bold text-white">> 300 Million</span>

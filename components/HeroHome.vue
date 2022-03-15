@@ -4,7 +4,7 @@
       <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
         <div class="px-4 lg:w-1/2 sm:px-8 md: pr-12 xl:pr-16">
           <h1 class="font-Lora font-semibold text-4xl tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-            <span class="xl:inline">Automate transactions and eliminate missing items with RFID tracking for your <span class="text-indigo-600">inventory, wip, and assets</span>.</span>
+            <span class="xl:inline">Eliminate missing assets with RFID tracking laser focused on <span class="text-indigo-600">assets, wip, and inventory</span>.</span>
           </h1>
           <p class="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
             Our cloud-first plug-and-play RFID system uses realtime item location information to drive measurable process improvements across your supply chain and factory floor. Become your company's superhero by eliminating lost items and perfecting inventory and supply chain accuracy.
@@ -16,7 +16,13 @@
                 <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
-                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Integrate RFID data with your ERP system</p>
+                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Decrease cost and schedule inefficiencies</p>
+              </dt>
+              <dt class="mt-2">
+                <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Know where everything is in real time</p>
               </dt>
               <dt class="mt-2">
                 <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
