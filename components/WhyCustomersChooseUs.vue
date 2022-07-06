@@ -30,7 +30,7 @@
         <div class="flex flex-col bg-gray-100 border-2 rounded-2xl shadow-xl">
           <div class="flex-1 relative pt-8 px-6 pb-8 md:px-8">
             <h3 class="text-xl font-bold text-gray-900">Enterprise-Level Service</h3>
-            <p class="mt-4 text-base text-gray-500">From design to deployment to support, our team works hand-in-hand with our customers.</p>
+            <p class="mt-4 text-base text-gray-500">From design to deployment to support, our team works hand-in-hand with our customers to ensure a successful project from RFP to installation.</p>
           </div>
         </div>
       </div>
