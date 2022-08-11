@@ -12,9 +12,6 @@
       </p>
 
       <h2 class="mt-6 text-2xl leading-10 font-extrabold tracking-tight text-gray-900 sm:text-3xl sm:leading-none lg:text-3xl">What we collect and why</h2>
-      <p class="text-xl leading-normal">
-        Our guiding principle is to collect only what we need. Here’s what that means in practice:
-      </p>
       <h3 class="mt-6 text-2xl leading-10 font-extrabold tracking-tight text-gray-900 sm:text-xl sm:leading-none lg:text-xl">Identity &amp; Access</h3>
       <p class="text-xl leading-normal">
         When you sign up as a new customer, we typically ask for identifying information such as your names, email addresses, as well as company information and floor plans. That’s so we can work together to design a functioning RFID system and personalize your account, and we can send you invoices, updates, or other essential information. We sometimes also give you the option to add a profile picture that displays in our products, but we do not normally look at or access that picture. We’ll never sell your personal info to third parties.
@@ -39,8 +36,8 @@
       <p class="text-xl leading-normal">
         When you browse our marketing pages or applications, your browser automatically shares certain information such as which operating system and browser version you are using. We track that information, along with the pages you are visiting, page load timing, and which website referred you for statistical purposes like conversion rates and to test new designs. We sometimes track specific link clicks to help inform some design decisions. These web analytics data are tied to your IP address and user account if applicable and you are signed into our Services.
       </p>
-      <p>
-        We utilize some a small number of third-party web analytics programs to help us manage and improve the Services.
+      <p class="text-xl leading-normal">
+        We additionally utilize a small number of third-party web analytics programs to help us manage and improve the Services. This includes, for example, functions such as monitoring page load and web-requested database query times.
       </p>
 
       <h3 class="mt-6 text-2xl leading-10 font-extrabold tracking-tight text-gray-900 sm:text-xl sm:leading-none lg:text-xl">Cookies and Do Not Track</h3>
@@ -69,7 +66,7 @@
 
       <h2 class="mt-6 text-2xl leading-10 font-extrabold tracking-tight text-gray-900 sm:text-3xl sm:leading-none lg:text-3xl">How we secure your data</h2>
       <p class="text-xl leading-normal">
-        All data is encrypted via SSL/TLS when transmitted from our servers to your browser. The database backups are also encrypted.
+        All data is encrypted via SSL/TLS when transmitted from our servers to your browser. Databases and database backups are also encrypted.
       </p>
 
       <h2 class="mt-6 text-2xl leading-10 font-extrabold tracking-tight text-gray-900 sm:text-3xl sm:leading-none lg:text-3xl">What happens when you delete data in your product accounts</h2>
