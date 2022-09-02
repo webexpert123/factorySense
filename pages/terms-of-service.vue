@@ -189,7 +189,7 @@
           </li>
           <li>
             When a Cancellation or Termination request is received, we will
-            notify you of the date upon which the cancallation or termination
+            notify you of the date upon which the cancellation or termination
             shall be effective. You remain liable for payment of fees for
             Products and Services until the Termination Date.
           </li>

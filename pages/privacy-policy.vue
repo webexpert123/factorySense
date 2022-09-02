@@ -79,7 +79,7 @@
 
       <h2 class="mt-6 text-2xl leading-10 font-extrabold tracking-tight text-gray-900 sm:text-3xl sm:leading-none lg:text-3xl">Changes &amp; questions</h2>
       <p class="text-xl leading-normal">
-        We may update this policy as needed to comply with relevant regulations and reflect any new practices. When changes are made, they will be publicly posted here on the company's website. It is your responsibility to periodially check this page for updates. If you have questions, please click help from within the application or send an email to support@factorysense.io.
+        We may update this policy as needed to comply with relevant regulations and reflect any new practices. When changes are made, they will be publicly posted here on the company's website. It is your responsibility to periodically check this page for updates. If you have questions, please click help from within the application or send an email to support@factorysense.io.
       </p>
       
       
