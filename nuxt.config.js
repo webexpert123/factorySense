@@ -13,12 +13,24 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
+      {
+        name: 'ahrefs-site-verification',
+        content:
+          '544bb5011f76dd0664e69070282f7bad761c8b46175ab4282789f4cd7055bd',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'preconnect', href: 'https://fonts.googleapis.com'},
-      { rel: 'preconnect', href: 'https://fonts.googleapis.com', crossorigin: ''},
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap'}
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+      {
+        rel: 'preconnect',
+        href: 'https://fonts.googleapis.com',
+        crossorigin: '',
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap',
+      },
     ],
     script: [
       {
@@ -51,7 +63,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    'vue-plausible'
+    'vue-plausible',
   ],
 
   plausible: {
