@@ -524,7 +524,8 @@ submit.formSubmit {
   left: 0;
   right: 0;
   opacity: 0.9;
-}
+} 
+
 .contactMap p {
     position: relative;
     max-width: 630px;
