@@ -17,7 +17,7 @@
             </svg>
           </button>
         </div>
-        <nav class="hidden md:flex space-x-10">
+        <nav class="hidden md:flex space-x-10 testing">
           <div class="relative">
             <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
             <button  type="button" class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" 
@@ -96,6 +96,9 @@
           </a>
           <a href="/consulting" class="text-base font-medium text-gray-500 hover:text-gray-900">
             Consulting
+          </a>
+          <a href="/contact-us" class="text-base font-medium text-gray-500 hover:text-gray-900">
+            Contact Us
           </a>
         </nav>
         <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
@@ -190,7 +193,7 @@
               </a>
               <a href="/company" class="text-base font-medium text-gray-900 hover:text-gray-700">
                 Company
-              </a>
+              </a> 
             </div>
             <div class="mt-6">
               <p class="mt-6 text-center text-base font-medium text-gray-500">
