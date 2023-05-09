@@ -11,7 +11,7 @@
       </div>
     </div>
     <div class="deliveringValue flex">
-      <div class="deliveringValueBox">
+      <div class="deliveringValueBox w-50">
         <img src="~assets/images/talktosales.jpg" class="imgCenter" />
         <p class="talkToSales">Talk to Sales</p>
         <p class="talkContent">Interested in RFID solutions? Pick up the phone, email or
@@ -23,16 +23,15 @@
               info@factorysense.io</a></li>
         </ul>
       </div>
-      <div class="deliveringValueBox">
-        <img src="~assets/images/talktosales.jpg" class="imgCenter" />
-        <p class="talkToSales">Talk to Sales</p>
-        <p class="supportContent">Interested in RFID solutions? Pick up the phone, email or
-          fill out the form below to speak to one of our experts. </p>
+      <div class="deliveringValueBox w-50">
+        <img src="~assets/images/support.jpg" class="imgCenter" />
+        <p class="talkToSales">Contact Customer Support</p>
+        <p class="supportContent">Need some help?<br />Our support team is available 24/7.</p>
         <ul>
           <li><a href="tel:+1972984-7176"><img src="~assets/images/tell.jpg" class="inline-block" /> +1 (972) 984-7176</a>
           </li>
-          <li><a href="mailto:info@factorysense.io"><img src="~assets/images/email.jpg" class="inline-block" />
-              info@factorysense.io</a></li>
+          <li><a href="mailto:support@factorysense.io"><img src="~assets/images/email.jpg" class="inline-block" />
+            support@factorysense.io</a></li>
         </ul>
       </div>
     </div>
@@ -318,13 +317,14 @@
             <submit type="submit" class="formSubmit">Send</submit>
           </div>
         </form>
+        
       </div>
     </div>
     <div class="contactMap">
       <div class="container text-center">
         <img src="~assets/images/build.png" class="relative mx-auto" />
         <p>2035 Central Circle, Suite 100, McKinney TX 75969, United States
-        For Media Enquiries: media@factorysense.io</p>
+          For Media Enquiries: <a href="mailto:media@factorysense.io">media@factorysense.io</a></p>
       </div>
     </div>
   </div>
@@ -502,13 +502,13 @@ submit.formSubmit {
 }
 
 .contactMap .container {
-    max-width: 1400px;
-    margin: 0 auto;
-    background: url(/_nuxt/assets/images/GoogleMapTA.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding: 70px 15px 40px 15px;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: url(/_nuxt/assets/images/GoogleMapTA.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 70px 15px 40px 15px;
 }
 
 .contactMap .container:before {
@@ -524,18 +524,19 @@ submit.formSubmit {
   left: 0;
   right: 0;
   opacity: 0.9;
-} 
+}
 
 .contactMap p {
-    position: relative;
-    max-width: 630px;
-    margin: 0 auto;
-    font-size: 20px;
-    color: #fff;
-    font-weight: 600;
+  position: relative;
+  max-width: 630px;
+  margin: 0 auto;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
 }
+
 .contactMap img {
-    max-width: 56px;
-    margin-bottom: 10px;
+  max-width: 56px;
+  margin-bottom: 10px;
 }
 </style>
