@@ -193,7 +193,10 @@
               </a>
               <a href="/company" class="text-base font-medium text-gray-900 hover:text-gray-700">
                 Company
-              </a> 
+              </a>
+              <a href="/contact-us" class="text-base font-medium text-gray-900 hover:text-gray-700">
+                Contact Us
+              </a>
             </div>
             <div class="mt-6">
               <p class="mt-6 text-center text-base font-medium text-gray-500">

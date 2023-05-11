@@ -43,18 +43,18 @@
         <h3 v-if="emailError == true" style="color: red; padding-top: 5px;"> Email not sent</h3>
         <form @submit.prevent="handleSubmit">
           <div class="inputRow flex">
-            <div class="flex-auto w-50">
+            <div class="flex-auto w-50 input-box">
               <input v-model="form.fName" type="text" placeholder="First name" required />
             </div>
-            <div class="flex-auto w-50">
+            <div class="flex-auto w-50 input-box">
               <input v-model="form.lName" type="text" placeholder="Last name" required />
             </div>
           </div>
           <div class="inputRow flex">
-            <div class="flex-auto w-50">
+            <div class="flex-auto w-50 input-box">
               <input v-model="form.email" type="email" placeholder="Email" required />
             </div>
-            <div class="flex-auto w-50">
+            <div class="flex-auto w-50 input-box">
               <input v-model="form.company" type="text" placeholder="Company" required />
             </div>
           </div>
@@ -327,5 +327,64 @@ button.formSubmit {
 .contactMap img {
   max-width: 56px;
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .getInTouch h2 {
+    font-size: 2.15rem;
+  }
+
+  .getInTouch h3 {
+    font-size: 21px;
+  }
+
+  .getInTouch p {
+    font-size: 16px;
+  }
+
+  .contactForm {
+    width: 95%;
+    margin: auto;
+  }
+  .deliveringValueBox p {
+    font-size: 16px;
+  }
+
+  .deliveringValueBox ul li a {
+    font-size: 16px;
+  }
+  .contactMap p {
+    font-size: 16px;
+  }
+  .contactForm h3 {
+    font-size: 16px;
+  }
+
+  .deliveringValue {
+    gap: 37px;
+  }
+
+  .contactMap .container{
+    padding: 70px 50px 40px 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .inputRow {
+    display: contents;
+  }
+  .deliveringValue {
+    display: grid;
+  }
+
+  .contactForm .container {
+    padding: 50px;
+  }
+  .input-box {
+    padding-bottom: 15px;
+  }
+  .contactForm h3 {
+    padding-bottom: 25px;
+  }
 }
 </style>

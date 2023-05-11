@@ -17,7 +17,7 @@
       </div>
     </nav>
 
-        <p class="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
+        <p class="mt-8 text-base text-gray-400 md:mt-0 md:order-1 footer-content">
           &copy; 2022 FactorySense RFID. All rights reserved.<br />
           Made with <span class="text-red-500">♥</span> in Dallas, Texas
         </p>
@@ -30,3 +30,11 @@ export default {
     name: 'Footer'
 }
 </script>
+
+<style>
+  @media only screen and (max-width: 767px) {
+    .footer-content {
+      text-align: center;
+    }
+  }
+</style>
