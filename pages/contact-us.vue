@@ -52,7 +52,8 @@
           </div>
           <div class="inputRow flex">
             <div class="flex-auto w-50 input-box">
-              <input v-model="form.email" type="email" placeholder="Email" required />
+              <input v-model="form.email" type="email" placeholder="Email" required @blur=validateEmail() @input=checkEmail() />
+              <p v-if="inputEmailError" class="text-red-500 text-sm">Invalid email</p>
             </div>
             <div class="flex-auto w-50 input-box">
               <input v-model="form.company" type="text" placeholder="Company" required />
@@ -62,7 +63,7 @@
             <textarea v-model="form.message" type="text" placeholder="Message" required />
           </div>
           <div class="formFooter">
-            <button type="submit" class="formSubmit">Send</button>
+            <button type="submit" class="formSubmit" :disabled=emailTrue>Send</button>
           </div>
         </form>
         
@@ -92,10 +93,39 @@ export default {
         message: "",
       },
       submitted: false,
-      emailError: false
+      emailError: false,
+      emailTrue: true,
+      inputEmailError: false
     };
   },
   methods: {
+    checkEmail(){
+      /* eslint-disable */
+      const validRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+      
+      const res = validRegex.test(this.form.email);
+      if(res) {
+        this.emailTrue=false
+        this.inputEmailError = false
+      } else{
+        this.emailTrue=true
+      }
+      /* eslint-enable */
+    },
+    validateEmail() {
+      /* eslint-disable */
+      const validRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+      
+      const res = validRegex.test(this.form.email);
+      if(res) {
+        this.emailTrue=false
+        this.inputEmailError = false
+      } else {
+        this.inputEmailError = true
+        this.emailTrue=true
+      }
+      /* eslint-enable */
+    },
     async handleSubmit () {
       this.submitted = false
       this.emailError = false
@@ -118,6 +148,7 @@ export default {
           message: "",
         }
       }).catch((err)=>{
+        // eslint-disable-next-line no-console
         console.log('Error-', err)
         this.emailError = true
       });
@@ -137,7 +168,7 @@ export default {
 }
 
 .getInTouch {
-  background: url(~assets/images/contact-banner.jpg);
+  background: url('~assets/images/contact-banner.jpg');
   padding: 50px 15px;
   border-top: solid 4px #ffa300;
   border-bottom: solid 4px #ffa300;
@@ -293,7 +324,7 @@ button.formSubmit {
 .contactMap .container {
   max-width: 1400px;
   margin: 0 auto;
-  background: url(/_nuxt/assets/images/GoogleMapTA.jpg);
+  background: url(~assets/images/GoogleMapTA.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
