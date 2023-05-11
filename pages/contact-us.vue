@@ -79,7 +79,6 @@
 </template>
   
 <script>
-import axios from 'axios';
 
 export default {
   name: 'Contact',
@@ -97,7 +96,7 @@ export default {
     };
   },
   methods: {
-    handleSubmit () {
+    async handleSubmit () {
       this.submitted = false
       this.emailError = false
 
@@ -109,23 +108,19 @@ export default {
       formData.append('company', this.form.company);
       formData.append('message', this.form.message);
       
-      axios.post(`https://forms.hubspot.com/uploads/form/v2/23878667/37983118-92dd-49d7-920f-e00132cb810c`, formData, {
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
-      }).then((data)=>{
+      await fetch(`https://forms.hubspot.com/uploads/form/v2/23878667/37983118-92dd-49d7-920f-e00132cb810c`,{body: formData,method: "post"}).then((data)=>{
         this.submitted = true
         this.form = {
-        fName: "",
-        lName: "",
-        email: "",
-        company: "",
-        message: "",
-      }
+          fName: "",
+          lName: "",
+          email: "",
+          company: "",
+          message: "",
+        }
       }).catch((err)=>{
-        console.log('err', err);
+        console.log('Error-', err)
         this.emailError = true
-      })
+      });
     }
   }
 
