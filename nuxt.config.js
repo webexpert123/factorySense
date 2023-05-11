@@ -79,5 +79,12 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-  buildDir: 'dist'
+  buildDir: 'dist',
+
+  routes: [
+    {
+      src: "/contact-us",
+      dest: "/pages/contact-us.vue"
+    }
+  ]
 }

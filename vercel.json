@@ -6,5 +6,8 @@
       "use": "@nuxtjs/vercel-builder",
       "config": {}
     }
-  ]
+  ],
+  "engines": {
+    "node": "16.x"
+  }
 }
